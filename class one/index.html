@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDiv">
+        ai
+    </div>
+
+    <script>
+        var myDiv = document.getElementById("myDiv")
+            myDiv.style.color = "green"
+                myDiv.style.fontSize = "90px"
+        //comments
+                    myDiv.style.background = "black"
+                        myDiv.innerHTML += "<strong>oloko</strong>"
+                            myDiv.style.fontFamily = "algerian"
+                                myDiv.style.textAlign = "center"
+    </script>
+        <hr>
+            <input type="text" placeholder="Nome" id="txtNome" />
+                <button onclick="Adicionar()">Goonar</button>
+                    <h1>Lista de mais GAYS do planeta terra:</h1>
+                        <div id="divProdutos"></div>
+
+    <script>
+        function Adicionar(){
+            var divProdutos = document.getElementById("divProdutos")
+                var nome = document.getElementById("txtNome").value
+                    if (nome != ""){
+                        divProdutos.innerHTML += nome + "<br>"
+            }
+        }
+    </script>
+
+</body>
+</html>
