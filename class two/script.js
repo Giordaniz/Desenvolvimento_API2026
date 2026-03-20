@@ -10,9 +10,7 @@ function validar(){
 }else if (valor == 68) {
          divResult.innerHTML = "saBOR tuffo."
 }
-else if (valor == 69) {
-         divResult.innerHTML = "OOH DELICIUS"
-}else if (valor <= 70) {
+else if (valor <= 70) {
          divResult.innerHTML = "nada tuffo.."
 }
 }
