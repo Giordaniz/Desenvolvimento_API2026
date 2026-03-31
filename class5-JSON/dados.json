@@ -1,0 +1,16 @@
+{
+    "nome" : "Blud",
+    "idade" : 67 ,
+    "altura" : 1.67 ,
+    "formacoes" : [ "Ensino Médio Incompleto" ] ,
+    "preso" : true ,
+    "casado" : true ,
+    "conjuge" : { "nome" : "Mona" },
+    "filhos" : [
+        { "nome" : "Didi" , "idade" : 6 } ,
+        { "nome" : "Dodo" , "idade" : 7 }
+    ],
+    "endereco" : null
+
+
+}
